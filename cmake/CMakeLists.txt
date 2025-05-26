@@ -26,7 +26,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_ROOT}/bin/${CMAKE_SYSTEM_NAME})
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_ROOT}/bin/${CMAKE_SYSTEM_NAME})
 
 # Define the include directory for project-specific headers
-set(PROJECT_INCLUDE_DIR ${PROJECT_ROOT}/src/includes)
+set(PROJECT_INCLUDE_DIR ${PROJECT_ROOT}/src/include)
 
 # Check if the current operating system is Windows
 if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
